@@ -1,0 +1,68 @@
+/* General */
+body {
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+* {
+    font-family: monospace;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #5f9ea0;
+    height: 35px;
+    box-sizing: content-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #55788f;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #74b898;
+}
+
+nav .left {
+    float: left;
+}
+
+nav .right {
+    float: right;
+}
+
+nav a.fa-hand-point-left::before  {
+    font-family: 'Font Awesome 5 free';
+    font-weight: 400;
+    content: '\f0a5';
+}
+
+nav a.fa-coffee::before {
+    font-family: 'Font Awesome 5 free';
+    font-weight: 400;
+    content: '\f0f4';
+}
+
+/* Main card / Content */
+
+#main-content {
+    width: 70%;
+    margin: 0% auto;
+    background-color: #fff;
+    border-radius: 4px;
+    filter: drop-shadow(0 0 40px #999999);
+    position: relative;
+    margin: 10% auto;
+    text-align: center;
+    padding: 20px;
+}
+

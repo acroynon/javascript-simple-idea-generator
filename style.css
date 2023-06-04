@@ -1,0 +1,15 @@
+#main-content a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: large;
+    padding: 15px;
+    color: white;
+    background-color: #5f9ea0;
+    display: block;
+}
+
+#main-content a:hover {
+    color: black;
+    background-color: #74b898;
+}
+

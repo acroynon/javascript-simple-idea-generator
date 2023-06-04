@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Story Prompt Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../common/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <a class="left" href="../index.html">
+            <i class="fas fa-hand-point-left"></i>
+            &nbsp Return to All Generators</a>
+        <a class="right" href="https://www.buymeacoffee.com/acroynon" target="_blank">
+            <i class="fas fa-coffee"></i>
+            &nbsp Support (buymeacoffee)</a>
+    </nav>
+    <div id="main-content">
+        <h1>Simple Story Prompt Generator</h1>
+        <button onClick="onGenerate()">Generate</button>
+        <table>
+            <tr>
+                <td>Who:</td>
+                <td id="td-who">??</td>
+            </tr>
+            <tr>
+                <td>Wants:</td>
+                <td id="td-wants">??</td>
+            </tr>
+            <tr>
+                <td>But:</td>
+                <td id="td-but">??</td>
+            </tr>
+            <tr>
+                <td>Setting:</td>
+                <td id="td-setting">??</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="../common/wordlists.js"></script>
+    <script src="../common/wordlistsUtils.js"></script>
+	<script src="main.js"></script>
+    <script>
+        onGenerate();
+    </script>
+  </body>
+</html>
