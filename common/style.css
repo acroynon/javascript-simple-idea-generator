@@ -68,6 +68,7 @@ nav a.fa-coffee::before {
     display: grid;
     grid-auto-flow: row;
     gap: 10px;
+    overflow: auto;
 }
 
 @media screen and (max-width: 550px) {

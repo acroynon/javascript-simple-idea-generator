@@ -24,7 +24,7 @@ WordLists.JOB = [
 ]
 
 WordLists.PERSONALITY = [
-    "loner", "socialite"
+    "loner", "socialite", "drunk"
 ]
 
 WordLists.ADJECTIVE = [
@@ -60,7 +60,7 @@ WordLists.DC_CHARACTERS = [
     "Batman", "The Joker", "Harley Quinn"
 ]
 WordLists.SUPERNATURAL_CHARACTERS = [
-    "Sam Winchester", "Dean Winchester"
+    "Sam Winchester", "Dean Winchester", "John Winchester"
 ]
 WordLists.DISNEY_CHARACTERS = [
     "Mickey Mouse", "Moana", "Daffy Duck", "Scrooge McDuck", "Cinderella", "Elsa", "Olaf", "Peter Pan", "Buzz Lightyear"
@@ -69,9 +69,9 @@ WordLists.HARRY_POTTER_CHARACTERS = [
     "Harry Potter", "James Potter", "Lilly Potter"
 ]
 WordLists.MISC_CHARACTERS = [
-
+    "Someone", "else", "entirely"
 ]
-WordLists.ANT_FANFICTION_CHARACTER = [
+WordLists.ANY_FANFICTION_CHARACTER = [
     ...WordLists.DOCTOR_WHO_CHARACTERS, ...WordLists.MARVEL_CHARACTERS, ...WordLists.DC_CHARACTERS, ...WordLists.SUPERNATURAL_CHARACTERS, ...WordLists.DISNEY_CHARACTERS,
     ...WordLists.HARRY_POTTER_CHARACTERS, ...WordLists.MISC_CHARACTERS
 ]

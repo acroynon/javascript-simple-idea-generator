@@ -30,11 +30,48 @@
         <div id="output">
             (your output will be displayed here)
         </div>
-        <div>
-            // TODO <br/>
-            // Examplation of how templating works <br/>
-            // Show available lists <br/>
-            // Show some examples <br/>
+        <div class="info-box">
+            <h2>Information</h2>
+            <h4 class="collapsible-trigger collapsible-trigger-nested">Creating Templates</h4>
+            <div class="collapsible-content">
+                <p>
+                    This system works essentially like <a href="https://en.wikipedia.org/wiki/Mad_Libs">Mad Libs</a> 
+                    in that it will replace target words using a random selection of source words.
+                </p>
+                <p>
+                    For example; "The <i><b>&ltNOUN&gt</b></i> is in the way" will replace the <i><b>&ltNOUN&gt</b></i> with a randomly selected word from the 'NOUN' list. 
+                    <br/>
+                    The resulting output could be "The chair is in the way" or "The car is in the way"
+                </p>
+                <p>
+                    However, the template keywords used in more complex ways.<br/>
+                    <ul>
+                        <li><i><b>&ltNOUN|ADJECTIVE&gt</b></i> will pick a random word from either the 'NOUN' or 'ADJECTIVE' lists.</li>
+                        <li><i><b>&ltNOUN&gt{2}</b></i> will pick two random words from the 'NOUN' list</li>
+                        <li><i><b>&ltNOUN&gt{1..3}</b></i> will pick a random number (between 1 and 3 inclusively) of words from the 'NOUN' list</li>
+                        <li><i><b>&ltJOB|CHARACTER|ANIMAL&gt{3..10}</b></i> will pick a random number (between 3 and 10 inclusively) of words from the 'JOB', 'CHARACTER', or 'ANIMAL' lists</li>
+                    </ul>
+                    <i>
+                    * When generating more than one word the usage of commas and/or 'and' will be taken care of for you. 
+                    <br/>
+                    E.g. <b>&ltNOUN&gt{3}</b> could generate "chair, table, and car"  
+                    </i>
+                </p>
+            </div>
+            <h4 class="collapsible-trigger collapsible-trigger-nested">Available Lists</h4>
+            <div class="collapsible-content">
+                <!-- TODO: populate table using javascript -->
+                <table id="table-word-examples">
+                    <thead>
+                        <tr>
+                            <td>List Name</td>
+                            <td>Example Words</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 

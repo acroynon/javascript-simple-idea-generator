@@ -9,3 +9,58 @@
     width: 75%;
     margin: 0px auto;
 }
+
+.info-box {
+    width: 75%;
+    text-align: left;
+    overflow: auto;
+}
+
+.info-box > * {
+    margin: 0px;
+}
+
+table {
+    overflow-y: scroll;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 3px 5px;
+}
+
+tbody td:nth-child(1){
+    width: 20%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+thead td {
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.collapsible-trigger {
+    background-color: #74b898;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapsible-trigger:hover {
+    background-color: #55788f;
+    color: white;
+    padding: 10px;
+}
+
+.collapsible-content {
+    padding-left: 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: block;
+}
