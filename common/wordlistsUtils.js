@@ -28,8 +28,13 @@ function parseToken(token) {
     // create replacement
     let replacement = [];
     let chosenMax = Math.floor(Math.random() * ((range.max+1)-range.min)) + range.min;
-    for(var i=range.min; i<=chosenMax; i++) {
-    replacement.push(randomSelect(lists));
+    for(var i=range.min; i<range.min+chosenMax; i++) {
+        let selected = randomSelect(lists);
+        let j=0; 
+        while(j < 3 && replacement.indexOf(selected) > -1) {
+            selected = randomSelect(lists);
+        }
+        replacement.push(selected);
     }
     // Remove dups
     replacement = [...new Set(replacement)];

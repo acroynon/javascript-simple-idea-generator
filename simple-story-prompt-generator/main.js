@@ -1,11 +1,11 @@
 function onGenerate() {
     // Create WHO template
-    var whoTemplate = "CHARACTERS|JOBS|PERSONALITIES";
+    var whoTemplate = "CHARACTER|JOB|PERSONALITY";
     if (configEnabled("config-animal-characters")) {
         whoTemplate += "|ANIMALS"
     }
     if (configEnabled("config-fanfiction")) {
-        whoTemplate += "|ALL_FANFICTION_CHARACTERS"
+        whoTemplate += "|ANY_FANFICTION_CHARACTER"
     }
     whoTemplate = "<" + whoTemplate + ">";
     if (configEnabled("config-multiple-whos")) {
@@ -15,5 +15,5 @@ function onGenerate() {
     setText("td-who", parseTemplateString(whoTemplate));
     setText("td-wants", parseTemplateString("<WANTS>"));
     setText("td-but", parseTemplateString("<BUT>"));
-    setText("td-setting", parseTemplateString("<SETTINGS>"));
+    setText("td-setting", parseTemplateString("<SETTING>"));
 }

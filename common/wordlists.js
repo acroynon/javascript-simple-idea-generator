@@ -1,6 +1,6 @@
 const WordLists = { }
 
-WordLists.ANIMALS = [
+WordLists.ANIMAL = [
     "aardvark", "antelope", "alilgator", "armadillo", 
     "baboon", "badger", "barracude", "beaver", "bug", "bear", "bee", "bison", "bird", "buffalo", "butterfly",
     "camel", "carp", "cat", "caterpillar", "cheetah", "chicken", "chimpanzee", "chipmunk", "cobra", "cougar", "cow",
@@ -13,21 +13,21 @@ WordLists.ANIMALS = [
     "whale", "wolf", "wombat", "zebra"
 ];
 
-WordLists.CHARACTERS = [
+WordLists.CHARACTER = [
     "superhero", "supervillain", "millionaire", "posh person", "homeless person", "santanist", "religious person",
     "ordinary citizen", "ordinary townsperson"
 ];
 
-WordLists.JOBS = [
+WordLists.JOB = [
     "business man/woman", "accountant", "traffic officer", "police man/woman", "post man/woman",
     "astronaut", "space pirate", "pirate", "cowboy/girl", "marshal", "sheriff", "shopkeeper"
 ]
 
-WordLists.PERSONALITIES = [
+WordLists.PERSONALITY = [
     "loner", "socialite"
 ]
 
-WordLists.ADJECTIVES = [
+WordLists.ADJECTIVE = [
     "grumpy", "happy", "concerned", "sad"
 ];
 
@@ -41,7 +41,7 @@ WordLists.BUT = [
 
 ];
 
-WordLists.SETTINGS = [
+WordLists.SETTING = [
     "Victorian era London", "outer space", "the Moon", "another planet", "underground",
     "a stakeout", "a skatepark", "the local shop", "the royal castle", "a dungeon",
     "prision", "at sea", "on a boat", "a deserted island", "in an office"
@@ -71,7 +71,7 @@ WordLists.HARRY_POTTER_CHARACTERS = [
 WordLists.MISC_CHARACTERS = [
 
 ]
-WordLists.ALL_FANFICTION_CHARACTERS = [
+WordLists.ANT_FANFICTION_CHARACTER = [
     ...WordLists.DOCTOR_WHO_CHARACTERS, ...WordLists.MARVEL_CHARACTERS, ...WordLists.DC_CHARACTERS, ...WordLists.SUPERNATURAL_CHARACTERS, ...WordLists.DISNEY_CHARACTERS,
     ...WordLists.HARRY_POTTER_CHARACTERS, ...WordLists.MISC_CHARACTERS
 ]
