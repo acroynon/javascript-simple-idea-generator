@@ -13,39 +13,34 @@
     <nav>
         <a class="left" href="../index.html">
             <i class="fas fa-hand-point-left"></i>
-            &nbsp Return to All Generators</a>
+            <span>&nbsp Return to All Generators</span>
+        </a>
         <a class="right" href="https://www.buymeacoffee.com/acroynon" target="_blank">
             <i class="fas fa-coffee"></i>
-            &nbsp Support (buymeacoffee)</a>
+            <span>&nbsp Support (buymeacoffee)</span>
+        </a>
     </nav>
     <div id="main-content">
-        <h1>Simple Story Prompt Generator</h1>
-        <button onClick="onGenerate()">Generate</button>
-        <table>
-            <tr>
-                <td>Who:</td>
-                <td id="td-who">??</td>
-            </tr>
-            <tr>
-                <td>Wants:</td>
-                <td id="td-wants">??</td>
-            </tr>
-            <tr>
-                <td>But:</td>
-                <td id="td-but">??</td>
-            </tr>
-            <tr>
-                <td>Setting:</td>
-                <td id="td-setting">??</td>
-            </tr>
-        </table>
+        <h1>Custom Generator</h1>
+        <div>
+            <textarea id="input-template" placeholder="Write your template here"></textarea>
+        </div>
+        <button  id="btn-generate" onClick="onGenerate()">Generate</button>
+        <h2>Output</h2>
+        <div id="output">
+            (your output will be displayed here)
+        </div>
+        <div>
+            // TODO <br/>
+            // Examplation of how templating works <br/>
+            // Show available lists <br/>
+            // Show some examples <br/>
+        </div>
     </div>
 
+    <script src="../common/common.js"></script>
     <script src="../common/wordlists.js"></script>
     <script src="../common/wordlistsUtils.js"></script>
 	<script src="main.js"></script>
-    <script>
-        onGenerate();
-    </script>
   </body>
 </html>
