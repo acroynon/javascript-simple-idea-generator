@@ -1,0 +1,19 @@
+td:nth-child(1){
+    width: 20%;
+    text-align: end;
+    font-weight: bolder;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 3px 5px;
+}

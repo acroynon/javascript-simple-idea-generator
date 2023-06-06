@@ -22,7 +22,6 @@ var table = document.querySelector("#table-word-examples tbody");
 var keys = Object.keys(WordLists);
 
 keys.forEach(key => {
-    console.log("Processing key: " + key);
     var templateText = "<" + key + ">";
     var row = table.insertRow();
     var cellKey = row.insertCell(0);

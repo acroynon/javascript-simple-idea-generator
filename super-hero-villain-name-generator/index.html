@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Hero/Name Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../common/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <a class="left" href="../index.html">
+            <i class="fas fa-hand-point-left"></i>
+            <span>&nbsp Return to All Generators</span>
+        </a>
+        <a class="right" href="https://www.buymeacoffee.com/acroynon" target="_blank">
+            <i class="fas fa-coffee"></i>
+            <span>&nbsp Support (buymeacoffee)</span>
+        </a>
+    </nav>
+    <div id="main-content">
+        <h1>Super Hero/Name Generator</h1>
+        <button  id="btn-generate" onClick="onGenerate()">Generate</button>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td id="td-name">??</td>
+            </tr>
+        </table>
+        <div>
+            <h2>Configuration</h2>
+            Include Animals (e.g. Spider):
+            <label class="switch">
+                <input id="config-animal" type="checkbox" checked/>
+                <span class="slider"></span>
+            </label>
+            <br/>
+            Include Elements (e.g. Iron):
+            <label class="switch">
+                <input id="config-element" type="checkbox" checked/>
+                <span class="slider"></span>
+            </label>
+            <br/>
+            Include Nouns (e.g. Ball):
+            <label class="switch">
+                <input id="config-noun" type="checkbox" checked/>
+                <span class="slider"></span>
+            </label>
+            <br/>
+            Include Food (e.g. Banana):
+            <label class="switch">
+                <input id="config-food" type="checkbox" checked/>
+                <span class="slider"></span>
+            </label>
+            <br/>
+        </div>
+    </div>
+
+    <script src="../common/common.js"></script>
+    <script src="../common/wordlists.js"></script>
+    <script src="../common/wordlistsUtils.js"></script>
+	<script src="main.js"></script>
+    <script>
+        onGenerate();
+    </script>
+  </body>
+</html>

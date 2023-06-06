@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Character Description Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../common/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <a class="left" href="../index.html">
+            <i class="fas fa-hand-point-left"></i>
+            <span>&nbsp Return to All Generators</span>
+        </a>
+        <a class="right" href="https://www.buymeacoffee.com/acroynon" target="_blank">
+            <i class="fas fa-coffee"></i>
+            <span>&nbsp Support (buymeacoffee)</span>
+        </a>
+    </nav>
+    <div id="main-content">
+        <h1>Character Description Generator</h1>
+        <button  id="btn-generate" onClick="onGenerate()">Generate</button>
+        <table>
+            <tr>
+                <td>Gender:</td>
+                <td id="td-gender">??</td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td id="td-age">??</td>
+            </tr>
+            <tr>
+                <td>Personality:</td>
+                <td id="td-personality">??</td>
+            </tr>
+            <tr>
+                <td>Height:</td>
+                <td id="td-height">??</td>
+            </tr>
+            <tr>
+                <td>Prominent Clothes:</td>
+                <td id="td-clothes">??</td>
+            </tr>
+            <tr>
+                <td>Skin Colour:</td>
+                <td id="td-skin-colour">??</td>
+            </tr>
+            <tr>
+                <td>Hair Colour:</td>
+                <td id="td-hair-colour">??</td>
+            </tr>
+            <tr>
+                <td>Hair Style:</td>
+                <td id="td-hair-style">??</td>
+            </tr>
+            <tr>
+                <td>Eye Colour:</td>
+                <td id="td-eye-colour">??</td>
+            </tr>
+            <tr>
+                <td>Other Physical Attributes:</td>
+                <td id="td-other-attributes">??</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="../common/common.js"></script>
+    <script src="../common/wordlists.js"></script>
+    <script src="../common/wordlistsUtils.js"></script>
+	<script src="main.js"></script>
+    <script>
+        onGenerate();
+    </script>
+  </body>
+</html>

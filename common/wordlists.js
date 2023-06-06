@@ -13,6 +13,21 @@ WordLists.ANIMAL = [
     "whale", "wolf", "wombat", "zebra"
 ];
 
+WordLists.ELEMENT = [
+    "aluminum", "americium", "argon", "arsenic", "barium", "boron", "cadmium", "carbon", "chromium", "cobalt", "copper", "gold", "helium",
+    "hydrogen", "iron", "iridium", "krypton", "lead", "manesium", "mercury", "neon", "nickel", "nitrogen", "osmium", "oxygen", "palladium",
+    "platinum", "plutonium", "potassium", "radium", "radon", "silicon", "sulfur", "tin", "titanium", "tungsten", "uranium", "xenon", "zinc"
+];
+
+WordLists.FOOD = [
+    "apple", "banana", "carrot", "date", "egg", "eggplant", "fig", "cheese", "icecream", "jelly", "jam", "honey", "syrup"
+]
+
+WordLists.NOUN = [
+    "chair", "table", "car", "computer", "radiator", "telescope", "guitar", "keyboard", "light", "speaker", "window", "tree", "balloon",
+    "ball"
+];
+
 WordLists.CHARACTER = [
     "superhero", "supervillain", "millionaire", "posh person", "homeless person", "santanist", "religious person",
     "ordinary citizen", "ordinary townsperson"
@@ -41,11 +56,53 @@ WordLists.BUT = [
 
 ];
 
-WordLists.SETTING = [
+WordLists.PLACE = [
     "Victorian era London", "outer space", "the Moon", "another planet", "underground",
     "a stakeout", "a skatepark", "the local shop", "the royal castle", "a dungeon",
     "prision", "at sea", "on a boat", "a deserted island", "in an office"
 ]
+
+WordLists.WEATHER = [
+    "clear", "rainy", "storming", "foggy", "snow", "overcast", "cloudy", "sunny", "partly cloudy", "thunder and lightning", "windy",
+]
+
+WordLists.TIME_OF_DAY = [
+    "morning", "afternoon", "early morning", "later afternoon", "evening", "dusk", "night", "dawn", "twilight"
+]
+
+WordLists.SKIN_COLOUR = [
+    "extremely fair", "fair", "olive", "brown", "pale", "extremely pale", "dark brown/black",
+    "porcelain", "ivory", "beige", "honey", "almond", "caramel"
+]
+
+WordLists.COLOUR = [
+    "red", "orange", "yellow", "green", "cyan", "blue", "magenta", "purple", "white", "black", "grey", "silver", "pink",
+    "maroon", "brown", "light brown"
+]
+
+WordLists.ITEM_OF_CLOTHING = [
+    "baseball cap", "bowler hat", "beany", "eye-patch", "suit jacket", "smart trousers", "sneakers", "boots", "gloves", 
+    "hoody", "jeans", "jogging bottoms", "shorts", "scraf", "glasses", "mask", "jacket", "coat", "shirt", "polo", "tie",
+    "bowtie"
+]
+
+WordLists.HAIR_STYLE = [
+    "straight", "curly", "mohawk", "shaven", "bald", "comb over", "short", "long", "buzz cut", "ponytail", "mullet", "regular",
+    "dreadlocks"
+]
+
+WordLists.AGE = [
+    "child", "young", "adult", "old", "eldery", "ancient", "teenager", "young adult", "adolescent"
+]
+
+WordLists.RANDOM_PHYSICAL_DESCRIPTOR = [
+    "birthmark on their face", "scar down their eye", "missing an arm", "large feet", "piercings", "tattoos",
+    "strange wound on their face", "blind in one eye", "missing a leg", "large head", "small head", "square jaw",
+    "no eyebrows", "small eyes", "large eyes", "large nose", "missing their nose", "large hands", "small hands",
+    "long fingernails", "angular face", "round face", "defined cheeckbones", "short neck", "long neck", "round chin",
+    "pointy chin"
+]
+
 
 
 // Existing IP Charcters (Fan-Fiction)
@@ -166,7 +223,7 @@ WordLists.FIRST_NAME_UNISEX = [
     "Kennedy", "Grey", "Marlowe", "Kit", "Rene", "Blaire", "Drew", "Kenzie", "Hayes", "Roshan"
 ]
 
-WordLists.SURNAMES = [
+WordLists.SURNAME = [
     "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", 
     "Thomas", "Taylor", "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", 
     "Walker", "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", 

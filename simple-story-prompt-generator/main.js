@@ -15,5 +15,5 @@ function onGenerate() {
     setText("td-who", parseTemplateString(whoTemplate));
     setText("td-wants", parseTemplateString("<WANTS>"));
     setText("td-but", parseTemplateString("<BUT>"));
-    setText("td-setting", parseTemplateString("<SETTING>"));
+    setText("td-setting", parseTemplateString("<PLACE>"));
 }

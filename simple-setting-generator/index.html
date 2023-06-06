@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Setting Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../common/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <a class="left" href="../index.html">
+            <i class="fas fa-hand-point-left"></i>
+            <span>&nbsp Return to All Generators</span>
+        </a>
+        <a class="right" href="https://www.buymeacoffee.com/acroynon" target="_blank">
+            <i class="fas fa-coffee"></i>
+            <span>&nbsp Support (buymeacoffee)</span>
+        </a>
+    </nav>
+    <div id="main-content">
+        <h1>Simple Setting Generator</h1>
+        <button  id="btn-generate" onClick="onGenerate()">Generate</button>
+        <table>
+            <tr>
+                <td>Place:</td>
+                <td id="td-place">??</td>
+            </tr>
+            <tr>
+                <td>Time of Day:</td>
+                <td id="td-tod">??</td>
+            </tr>
+            <tr>
+                <td>Weather:</td>
+                <td id="td-weather">??</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="../common/common.js"></script>
+    <script src="../common/wordlists.js"></script>
+    <script src="../common/wordlistsUtils.js"></script>
+	<script src="main.js"></script>
+    <script>
+        onGenerate();
+    </script>
+  </body>
+</html>
