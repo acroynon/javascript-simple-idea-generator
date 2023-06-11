@@ -82,6 +82,8 @@ nav a.fa-coffee::before {
     font-weight: bold;
     padding: 5px 50px;
     font-family: Rokkit;
+    margin: 0px auto;
+    width: 70%;
 }
 
 

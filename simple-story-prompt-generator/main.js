@@ -1,6 +1,6 @@
 function onGenerate() {
     // Create WHO template
-    var whoTemplate = "CHARACTER|JOB|PERSONALITY";
+    var whoTemplate = "GENERIC_CHARACTER|JOB|PERSONALITY";
     if (configEnabled("config-animal-characters")) {
         whoTemplate += "|ANIMALS"
     }
