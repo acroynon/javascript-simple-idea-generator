@@ -11,7 +11,7 @@
 }
 
 .info-box {
-    width: 75%;
+    height: auto;
     text-align: left;
     overflow: auto;
 }
@@ -63,4 +63,8 @@ td {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     display: block;
+}
+
+.active + .collapsible-content {
+    overflow: auto;
 }

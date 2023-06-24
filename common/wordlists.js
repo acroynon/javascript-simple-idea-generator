@@ -1,3 +1,4 @@
+let CustomWordLists = { }
 const WordLists = { }
 
 WordLists.ANIMAL = [

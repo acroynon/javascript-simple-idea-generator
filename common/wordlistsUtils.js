@@ -22,7 +22,7 @@ function parseToken(token) {
     var lists = token.match(/(?<=<)[^\s]+(?=>)/g);
     lists = lists != null ? lists[0].split("|") : [];
     lists = lists.map(key => {
-        return WordLists[key]
+        return CustomWordLists[key] || WordLists[key] || null
     }).filter( list => list != null)
 
     // create replacement

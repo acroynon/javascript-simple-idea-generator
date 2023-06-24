@@ -57,6 +57,7 @@ nav a.fa-coffee::before {
 
 #main-content {
     width: 70%;
+    height: auto;
     margin: 0% auto;
     background-color: #fff;
     border-radius: 4px;
@@ -65,7 +66,7 @@ nav a.fa-coffee::before {
     margin: 10% auto;
     text-align: center;
     padding: 20px;
-    display: grid;
+    display: table;
     grid-auto-flow: row;
     gap: 10px;
     overflow: auto;

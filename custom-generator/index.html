@@ -58,10 +58,46 @@
                     </i>
                 </p>
             </div>
+            <br/>
             <h4 class="collapsible-trigger collapsible-trigger-nested">Available Lists</h4>
             <div class="collapsible-content">
-                <!-- TODO: populate table using javascript -->
                 <table id="table-word-examples">
+                    <thead>
+                        <tr>
+                            <td>List Name</td>
+                            <td>Example Words</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <br/>
+            <h4 class="collapsible-trigger collapsible-trigger-nested">Custom Lists</h4>
+            <div class="collapsible-content">
+                <p>
+                    You can add your own custom lists by using the format shown below.
+                    <ul>
+                        <li>Separate the list name and it's items by using <i>'='</i>.</li>
+                        <li>Then separate individual list items using commas <i>','</i>.</li>
+                        <li>Finally, separate different lists by using a semi-colon <i>';'</i>.</li>
+                        <li>All surrounding whitespace will be trimmed. <i>'  Walter White  '</i> &rarr; <i>'Walter White'</i></li>
+                    </ul>
+                </p>
+                <p>
+                    Custom lists will take precident over existing lists.
+                    This means if you create a custom list named 'NOUN' the generator (only on this page)) will use your custom list instead of the predefined 'NOUN' list.
+                </p>
+                <p>
+                    <b>Note:</b> refreshing/closing/navigating away from  this page will reset all custom lists.
+                    <br/>
+                    Therefore, it is recommended to write, and store, your custom lists outside of this app and then simply copy & paste them into the below input box.
+                </p>
+                <textarea id="input-custom-list" placeholder="dogs_breeds=labarador,pug,bulldog,terrier;fish=pufferfish,cod,shark;"></textarea>
+                <br/>
+                <button onClick="onParseCustomLists()">Parse Custom Lists</button>
+                <h2>Parsed Lists</h2>
+                <table id="table-custom-word-lists-examples">
                     <thead>
                         <tr>
                             <td>List Name</td>
